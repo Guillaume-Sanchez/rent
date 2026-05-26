@@ -64,4 +64,4 @@ jobs:
       - name: Build Docker images
         run: |
           cd ./MyService
-          docker build -t myservice:latest .
+          docker build -t gsz116/hellojava:latest .
