@@ -14,7 +14,7 @@ public class RentServiceRest {
 
     @GetMapping("/")
     public String sayHello(){
-        return "Hello ! C'est l'image docker de Guillaume Sanchez :)";
+        return "Hello ! C'est l'image docker de Guillaume Sanchez :), J'ajoute ceci pour tester le pipeline de mon github actions !";
     }
 
     @PostMapping("/cars")
